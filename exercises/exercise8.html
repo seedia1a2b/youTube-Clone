@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .name,
+      .email{
+        display: block;
+        margin-bottom: 4px;
+        border-color: rgb(174, 174, 174);
+        border-radius: 4px;
+        border-style: solid;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        border-width: 1.5px;
+      }
+      .title{
+        margin-bottom: 5px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .text{
+        width: 200px;
+        display:inline-block;
+        vertical-align: center;
+        margin-top: 4px;
+      }
+      .yes,
+      .no{
+        vertical-align: middle;
+        margin-bottom: 40px;
+      }
+      .google-gif{
+        display: block;
+        height: 200px;
+        width: 400px;
+        background-color: gray;
+        margin-left: 200px;
+        border-radius: 30px;
+
+      }
+      .search-box{
+        margin-top: 20px;
+        width: 610px;
+        height: 50px;
+        margin-left: 90px;
+        margin-right: 100px;
+        border-width: 0.59px;
+        border-radius: 100px;
+        border-style: solid;
+        border-color: rgb(201, 201, 201);
+        padding-left: 30px;
+        font-size: medium;
+      }
+      .search-box:hover{
+        box-shadow: 1px 1px 5px 1px rgb(211, 210, 210);
+      }
+      .first-name,
+      .last-name{
+        display: inline-block;
+      }
+      .first-name,
+      .email-2,
+      .sign-but{
+        margin-left: 200px;
+      }
+      .first-name,
+      .last-name{
+        border-style: solid;
+        margin-bottom: 10px;
+        border-width: 1px;
+        height: 35px;
+        margin-right: 2px;
+        border-radius: 5px;
+        padding-left: 5px;
+        font-size: medium;
+        width: 140px;
+        border-color: rgb(197, 197, 197);
+      }
+
+      .email-2:hover,
+      .first-name:hover,
+      .last-name:hover,
+      .name:hover,
+      .email:hover,
+      .location-field:hover,
+      .destination-field:hover,
+      .schedule-but:hover{
+        box-shadow: 1px 1px 5px 1px rgb(211, 210, 210);
+      }
+     
+      .email-2{
+        display: block;
+        width: 295px;
+        height: 35px;
+        padding-left: 5px;
+        font-size: medium;
+        border-width: 1px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: rgb(197, 197, 197);
+        margin-bottom: 10px;
+        
+      }
+
+      .sign-but{
+        margin-bottom: 100px;
+        width: 305px;
+        height: 50px;
+        background-color: rgb(75, 93, 254);
+        border: none;
+        color: white;
+        border-radius: 10px;
+        font-size: 17px;
+        font-weight:700;
+        transition: background-color 0.35s;
+      }
+      .sign-but:hover{
+        background-color: white;
+        color: rgb(75, 93, 254);
+        cursor: pointer;
+        border: solid;
+        border-width: 2px;
+        border-color: blue;
+        
+      }
+
+      .location-field,
+      .destination-field{
+        display: block;
+        height: 30px;
+        margin-left: 200px;
+        border: none;
+        background-color: rgb(233, 233, 233);
+        font-style: bold;
+        margin-bottom: 10px;
+        width: 300px;
+        border-radius: 4px;
+        padding-left: 15px;
+        
+      }
+
+      .req-1{
+        margin-left: 200px;
+        font-size: larger;
+        font-family: Arial;
+        font-style: bold;
+        font-weight: 700;
+      }
+
+      .req-but{
+        margin-left:200px;
+        height: 38px;
+        width: 150px;
+        background-color: black;
+        color: white;
+        border-radius: 1px;
+        margin-top: 28px;
+        transition: background-color 0.5s;
+      }
+      .schedule-but{
+        height: 38px;
+        border: none;
+        color: rgb(0, 0, 0);
+        background-color: rgb(233, 233, 233);
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 15px;
+        margin-top: 28px;
+        font-style: bold;
+      }
+      .schedule-but:hover{
+        cursor: pointer;
+      }
+      .req-but:hover{
+        border-style: solid;
+        border-color: rgb(44, 44, 44);
+        background-color: rgb(199, 199, 199);
+        color: black;
+        border-radius: 10px;
+        border-width: 4px;
+        font-style: bold;
+      }
+     
+    </style>
+    <title>Test Boxes</title>
+  </head>
+  <Body>
+    <h3 class="title">Exercise 8</h3>
+    <input class="name" type="text" placeholder="Name">
+    <input class="email" type="text" placeholder="Email">
+
+
+    <h3 class="title">Exercise 8b</h3>
+    <p class="text" >Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <button class="yes">Yes</button>
+    <button class="no" >No</button>
+
+    <h3 class="title">Exercise 8c</h3>
+    <img class="google-gif" src="google.gif">
+    <input class="search-box" type="text" placeholder="Search Google or type a URL">
+
+    <h3 class="title">Exercise 8d</h3>
+    <input class="first-name" type="text" placeholder="First Name">
+    <input class="last-name" type="text" placeholder="Last Name">
+    <input  class="email-2" type="text" placeholder="Email">
+    <button class="sign-but" >Sign Up</button>
+
+    <h3 class="title">Exercise 8e</h3>
+    <p class="req-1">Request a ride now</p>
+    <input class="location-field" type="text" placeholder="Enter puckup location">
+    <input class="destination-field" type="text" placeholder="Enter destination">
+    <button class="req-but">Request now</button>
+    <button class="schedule-but" >Schedule for later</button>
+  </Body>
+</html>
